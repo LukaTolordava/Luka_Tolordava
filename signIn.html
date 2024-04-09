@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sign in</title>
+    <link rel="stylesheet" href="styles/general.css">
+    <link rel="stylesheet" href="styles/headerMenu.css">
+    <link rel="stylesheet" href="styles/signIn.css">
+    <link rel="stylesheet" href="styles/footer.css">
+    <!-- script -->
+    <script src="script/headerMenu.js"></script>
+    <script src="script/termsAndPrivacy.js"></script>
+    <script src="script/signIn.js" defer></script>
+    <!-- font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+  </head>
+  <body>
+    <!-- header -->
+    <header>
+      <a href="index.html" class="logo"><img class="logo-icon" src="icons/ExploreEra(black).png" alt=""></a>
+      <a href="#" class="user-icon"><img src="icons/user-icon-black.png" alt=""></a>
+
+      <div class="user-menu" id="userMenu">
+        <a href="signIn.html">Sign in</a>
+        <a href="signUp.html">Sign up</a>
+        <a href="index.html">Sign out</a>
+      </div>
+    </header>
+
+    <section class="sign-in-section">
+      <div class="sign-in-container">
+        <div class="sign-in-contetn">
+          <p class="email">Email</p>
+          <input type="email" id="emailInput" placeholder="Enter your email address">
+          <p class="email-error">Wrong Email</p>
+          <p class="password">Password</p>
+          <input type="password" id="passwordInput" placeholder="Enter your password">
+          <p class="password-error">Wrong Password</p>
+          <a href="#"><button class="continue-button">Continue</button></a>
+          <div class="or-continue-with-container">
+            <div class="line"></div>
+            <p class="text">Or continue with</p>
+            <div class="line"></div>
+          </div>
+          <div class="social-media-container">
+            <a href="#"><img src="icons/facebook-icon.png" alt=""></a>
+            <a href="#"><img src="icons/apple-icon.png" alt=""></a>
+            <a href="#"><img src="icons/google-icon.png" alt=""></a>
+            <a href="#"><img src="icons/gmail-icon.png" alt=""></a>
+          </div>
+          <div class="long-line"></div>
+          <div class="terms-and-conditions">
+            <p>By signing in or creating an account, you agree with our <a href="#" id="termsLink">Terms & conditions</a> and <a href="#" id="privacyLink">Privacy policy</a></p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- terms and privacy -->
+    <div class="overlay" id="overlay"></div>
+    <div id="termsAndPrivacyContent" class="terms-and-conditions-privacy-policy">
+      <h1>Terms and conditions</h1>
+      <p>Before you use our website or services, please carefully read the following Terms and Conditions. By accessing or using our platform, you agree to comply with and be bound by these terms. If you do not agree with any part of these terms, please do not use our services. Your privacy is important to us. Please review our Privacy Policy to understand how we collect, use, and disclose information about you. By using our services, you consent to our privacy practices.</p>
+      <h1>Privacy policy</h1>
+      <p>We may collect personal information, such as your name, email address, and other details, when you register an account, make a purchase, or interact with our services. We also automatically collect certain information, such as IP addresses, browser type, and usage patterns, through cookies and similar technologies. Our website may contain links to third-party websites or services.</p>
+      <a href="#"><button class="i-agree-button">I agree</button></a>
+    </div>
+
+    <!-- footer -->
+    <footer>
+      <div class="container">
+        <div class="first-section">
+          <img class="explore-era-logo" src="icons/ExploreEra(black).png" alt="">
+          <p class="content">Travel agency which helps you to plan your perfect holidays</p>
+          <p class="follow-us">Follow us</p>
+          <img class="social-media-icons" src="icons/Vector(3).png" alt="">
+          <img class="social-media-icons" src="icons/Vector (1).png" alt="">
+          <img class="social-media-icons" src="icons/Vector (2).png" alt="">
+        </div>
+        <div class="second-section">
+          <p>Links</p>
+          <p>Home</p>
+          <p>About us</p>
+          <p>Blogs</p>
+          <p>Our services</p>
+          <p>Our offers</p>
+        </div>
+        <div class="third-section">
+          <p>Contact us</p>
+          <p>exploreera@gmail.com</p>
+          <p>555111222</p>
+          <p class="subscribe-news">Subscribe news</p>
+          <input type="email" placeholder="Email" class="email-input">
+        </div>
+      </div>
+      <div class="copyright">
+        <p>Copyright 2024</p>
+      </div>
+    </footer>
+  </body>
+</html>

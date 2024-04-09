@@ -1,0 +1,12 @@
+:root {
+  --secondary-color: #252525;
+  --button-color: #FF6700;
+  --button-color-hover: #C85100;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+}

@@ -1,0 +1,28 @@
+/* sign in/sign up/sign out menu */
+.user-menu {
+  display: none;
+  position: absolute;
+  top: 133px;
+  right: 170px;
+  width: 267px;
+  height: 164px;
+  padding: 10px;
+  background-color: #fff;
+  border-radius: 10px;
+  z-index: 999;
+}
+
+.user-menu a {
+  color: #424244;
+  font-size: 24px;
+  display: block;
+  width: 247px;
+  height: 48px;
+  padding: 10px 0 10px 20px;
+  text-decoration: none;
+  border-bottom: 1px solid #FF6700;
+}
+
+.user-menu a:hover {
+  background-color: #F5F5F5;
+}

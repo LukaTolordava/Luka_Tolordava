@@ -1,0 +1,172 @@
+header {
+  display: flex;
+  background-color: #EAE9E9;
+  padding: 20px 170px;
+  justify-content: space-between;
+}
+
+.sign-up-section {
+  background-color: #F6F6F6;
+  display: flex;
+  width: 100%;
+}
+
+.sign-up-section .sign-up-container {
+  background-color: #fff;
+  margin: 126px 690px 156px;
+  width: 540px;
+  height: 852px;
+  border-radius: 10px;
+}
+
+.sign-up-container .sign-up-contetn {
+  padding: 30px 70px 50px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.sign-up-contetn .text {
+  font-size: 16px;
+  padding: 0 0 10px 20px;
+  color: #424244;
+  opacity: 0.7;
+  margin-top: 20px;
+  width: 300px;
+}
+
+.sign-up-contetn input {
+  width: 400px;
+  height: 50px;
+  border-radius: 10px;
+  font-size: 20px;
+  padding-left: 20px;
+  border: 1px solid #FF6700;
+}
+
+.sign-up-contetn a .continue-button {
+  background-color: var(--button-color);
+  color: #fff;
+  width: 400px;
+  height: 50px;
+  border-radius: 10px;
+  border: none;
+  font-size: 20px;
+  margin: 20px 0;
+  cursor: pointer;
+  transition: background-color 0.15s;
+}
+
+.sign-up-contetn a .continue-button:hover {
+  background-color: var(--button-color-hover);
+}
+
+.sign-up-contetn .or-continue-with-container {
+  display: flex;
+  align-items: center;
+  width: 400px;
+  margin-bottom: 20px;
+}
+
+.or-continue-with-container .line {
+  height: 1px;
+  width: 122px;
+  background-color: #424244;
+  opacity: 0.7;
+}
+
+.or-continue-with-container .text {
+  font-size: 16px;
+  color: #424244;
+  opacity: 0.7;
+  margin: 0 20px;
+}
+
+.sign-up-contetn .social-media-container {
+  width: 540px;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+.sign-up-contetn .social-media-container a {
+  display: flex;
+  border: 1px solid #424244;
+  padding: 15px;
+  border-radius: 5px;
+}
+
+.sign-up-contetn .long-line {
+  height: 1px;
+  background-color: #424244;
+  margin-bottom: 20px;
+}
+
+.sign-up-contetn .terms-and-conditions {
+  text-align: center;
+  font-size: 16px;
+}
+
+.sign-up-contetn .terms-and-conditions a {
+  text-decoration: none;
+  color: #C85100;
+}
+
+.sign-up-contetn .terms-and-conditions a:hover {
+  text-decoration: underline;
+  color: #FF6700;
+}
+
+/* terms-and-conditions-privacy-policy */
+.terms-and-conditions-privacy-policy {
+  background-color: #fff;
+  position: absolute;
+  width: 932px;
+  height: 595px;
+  top: 200px;
+  left: 494px;
+  border-radius: 15px;
+  padding: 60px;
+  display: none;
+  z-index: 1000;
+}
+
+.terms-and-conditions-privacy-policy h1 {
+  font-size: 32px;
+  text-align: center;
+  margin-bottom: 20px;
+  color: #424244;
+}
+
+.terms-and-conditions-privacy-policy p {
+  color: #424244;
+  font-size: 18px;
+  margin-bottom: 60px;
+}
+
+.terms-and-conditions-privacy-policy .i-agree-button {
+  font-size: 20px;
+  width: 400px;
+  height: 50px;
+  background-color: var(--button-color);
+  color: #fff;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  margin-left: 206px;
+  transition: background-color 0.15s;
+}
+
+.terms-and-conditions-privacy-policy .i-agree-button:hover {
+  background-color: var(--button-color-hover);
+}
+
+.overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  z-index: 999;
+  display: none;
+}
